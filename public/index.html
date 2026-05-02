@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixam — Civic Infrastructure Reporting Platform</title>
+    <meta name="description" content="Fixam is an open-source civic technology platform that empowers citizens in Sierra Leone to report infrastructure issues via WhatsApp.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="logo">
+                <svg width="32" height="32" viewBox="0 0 100 100" fill="none"><rect width="100" height="100" rx="20" fill="#2563eb"/><text x="50" y="68" text-anchor="middle" font-size="48" font-weight="700" fill="white" font-family="sans-serif">F</text></svg>
+                <span class="logo-text">Fixam</span>
+            </a>
+            <nav class="main-nav">
+                <a href="/">Home</a>
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#opensource">Open Source</a>
+                <a href="https://fixam.maxcit.com/" class="btn-demo" target="_blank" rel="noopener">Live Demo</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Fixam</h1>
+                <p class="tagline">Facilitating Issue eXchange for Accountable Municipalities</p>
+                <p class="hero-desc">An open-source civic technology platform that empowers citizens in Sierra Leone to report municipal infrastructure issues via WhatsApp — and enables authorities to manage, analyze, and resolve them efficiently.</p>
+                <div class="hero-actions">
+                    <a href="https://fixam.maxcit.com/" class="btn-primary" target="_blank" rel="noopener">Try the Live Demo</a>
+                    <a href="#about" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Fixam</h2>
+                <p>Fixam bridges the gap between citizens and local government by providing an accessible, low-barrier channel for reporting infrastructure problems. Anyone with WhatsApp can report a broken streetlight, pothole, water leak, or waste pile-up in seconds.</p>
+                <p>Designed as a <strong>Digital Public Good (DPG)</strong>, Fixam is free, open-source, and built to serve communities — particularly in developing nations where traditional civic reporting channels are limited.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">WhatsApp</span>
+                        <span class="stat-label">Reporting Channel</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Sierra Leone</span>
+                        <span class="stat-label">Primary Deployment</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Open Source</span>
+                        <span class="stat-label">ISC Licensed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">AI-Powered</span>
+                        <span class="stat-label">Issue Classification</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section section-alt">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>WhatsApp Bot</h3>
+                        <p>Citizens report issues via WhatsApp using natural language. The bot guides them through category selection, location sharing, and photo evidence — no app install required.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🗺️</div>
+                        <h3>Interactive Civic Map</h3>
+                        <p>All reported issues appear on a public map with real-time status tracking. Filter by category, location, or status to see what's happening in your community.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>AI Intent Classification</h3>
+                        <p>Natural language processing understands citizen intents — reporting, voting, tracking, or feedback — making interactions feel conversational and intuitive.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🗳️</div>
+                        <h3>Community Voting</h3>
+                        <p>Citizens upvote and downvote issues to help authorities prioritize repairs. Popular issues rise to the top for faster resolution.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Gamification</h3>
+                        <p>Points and leaderboards reward active citizens. Earn points for reporting, voting, and endorsing resolutions — building a culture of civic pride.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Privacy-First</h3>
+                        <p>Explicit consent required before data collection. bcrypt password hashing, restricted CORS, HTTPS enforcement, and full data export/deletion rights.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="opensource" class="section">
+            <div class="container">
+                <h2>Open Source</h2>
+                <p>Fixam is proudly open source under the <strong>ISC License</strong>. We believe civic infrastructure tools should be freely available to all communities worldwide.</p>
+                <p>The full codebase is available on GitHub, including:</p>
+                <ul class="os-list">
+                    <li>WhatsApp bot integration with conversation state machine</li>
+                    <li>AI service for intent classification and content moderation</li>
+                    <li>PostgreSQL database with full schema and migrations</li>
+                    <li>Admin dashboard for issue management and analytics</li>
+                    <li>Public civic map and statistics dashboard</li>
+                </ul>
+                <p class="os-cta">We welcome contributions from developers, urban planners, and civic technologists.</p>
+            </div>
+        </section>
+
+        <section id="demo" class="section section-alt">
+            <div class="container">
+                <h2>Try the Demo</h2>
+                <p>The Fixam demo is live and open for testing. Explore the civic map, test the WhatsApp bot, or browse the admin dashboard.</p>
+                <div class="demo-links">
+                    <a href="https://fixam.maxcit.com/" class="btn-primary" target="_blank" rel="noopener">Open Demo Application</a>
+                </div>
+                <p class="demo-note">The demo application is hosted at <strong>fixam.maxcit.com</strong>. In the future, it will be available at <strong>demo.fixam.sl</strong>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Fixam</h4>
+                    <p>Facilitating Issue eXchange for Accountable Municipalities</p>
+                    <p class="footer-license">Open Source — ISC License</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <a href="/">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#features">Features</a>
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="https://fixam.maxcit.com/" target="_blank" rel="noopener">Live Demo</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <a href="mailto:privacy@fixam.sl">privacy@fixam.sl</a>
+                    <a href="https://fixam.sl">fixam.sl</a>
+                    <span>Freetown, Sierra Leone</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fixam. Built for Sierra Leone. Open to the world.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
