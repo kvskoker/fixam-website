@@ -3,22 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixam — Civic Infrastructure Reporting Platform</title>
-    <meta name="description" content="Fixam is an open-source civic technology platform that empowers citizens in Sierra Leone to report infrastructure issues via WhatsApp.">
+    <title>Fixam — Civic Infrastructure Reporting Platform for Sierra Leone</title>
+    <meta name="description" content="Fixam is an open-source civic technology platform empowering citizens in Sierra Leone to report potholes, broken streetlights, water leaks, and waste via WhatsApp. AI-powered issue classification, interactive civic map, and community voting.">
+    <meta name="keywords" content="civic tech, infrastructure reporting, Sierra Leone, WhatsApp bot, open source, digital public good, citizen engagement, municipal services">
+
+    <link rel="canonical" href="https://fixam.sl/">
+
+    <meta property="og:title" content="Fixam — Civic Infrastructure Reporting Platform for Sierra Leone">
+    <meta property="og:description" content="Report potholes, broken streetlights, and infrastructure issues via WhatsApp. Open-source, AI-powered, built for Sierra Leone.">
+    <meta property="og:image" content="https://fixam.sl/web-app-manifest-512x512.png">
+    <meta property="og:url" content="https://fixam.sl/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Fixam">
+    <meta property="og:locale" content="en_SL">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fixam — Civic Infrastructure Reporting for Sierra Leone">
+    <meta name="twitter:description" content="Report potholes, broken streetlights, and infrastructure issues via WhatsApp. Open-source, AI-powered, built for Sierra Leone.">
+    <meta name="twitter:image" content="https://fixam.sl/web-app-manifest-512x512.png">
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="Fixam" />
+<link rel="manifest" href="/site.webmanifest" />
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Fixam",
+        "url": "https://fixam.sl",
+        "logo": "https://fixam.sl/fixam-logo-blue.svg",
+        "description": "Open-source civic technology platform empowering citizens to report infrastructure issues via WhatsApp.",
+        "email": "privacy@fixam.sl",
+        "sameAs": [
+            "https://github.com/kvskoker/FIXAM"
+        ],
+        "areaServed": {
+            "@type": "Country",
+            "name": "Sierra Leone"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Freetown",
+            "addressCountry": "SL"
+        }
+    }
+    </script>
 </head>
 <body>
     <header class="site-header">
-        <div class="container">
+        <div class="container">           
+
             <a href="/" class="logo">
-                <svg width="32" height="32" viewBox="0 0 100 100" fill="none"><rect width="100" height="100" rx="20" fill="#2563eb"/><text x="50" y="68" text-anchor="middle" font-size="48" font-weight="700" fill="white" font-family="sans-serif">F</text></svg>
-                <span class="logo-text">Fixam</span>
+                <img src="fixam-logo-blue.svg" alt="FIXAM Logo" height="50px">
+
             </a>
             <nav class="main-nav">
                 <a href="/">Home</a>
                 <a href="#about">About</a>
                 <a href="#features">Features</a>
                 <a href="#opensource">Open Source</a>
+                <a href="https://github.com/kvskoker/FIXAM" target="_blank" rel="noopener">GitHub</a>
                 <a href="https://fixam.maxcit.com/" class="btn-demo" target="_blank" rel="noopener">Live Demo</a>
             </nav>
         </div>
@@ -27,10 +77,10 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h1>Fixam</h1>
-                <p class="tagline">Facilitating Issue eXchange for Accountable Municipalities</p>
-                <p class="hero-desc">An open-source civic technology platform that empowers citizens in Sierra Leone to report municipal infrastructure issues via WhatsApp — and enables authorities to manage, analyze, and resolve them efficiently.</p>
-                <div class="hero-actions">
+                <h1 class="reveal">Fixam</h1>
+                <p class="tagline reveal">Facilitating Issue eXchange for Accountable Municipalities</p>
+                <p class="hero-desc reveal">An open-source civic technology platform that empowers citizens in Sierra Leone to report municipal infrastructure issues via WhatsApp — and enables authorities to manage, analyze, and resolve them efficiently.</p>
+                <div class="hero-actions reveal">
                     <a href="https://fixam.maxcit.com/" class="btn-primary" target="_blank" rel="noopener">Try the Live Demo</a>
                     <a href="#about" class="btn-secondary">Learn More</a>
                 </div>
@@ -39,10 +89,10 @@
 
         <section id="about" class="section">
             <div class="container">
-                <h2>About Fixam</h2>
-                <p>Fixam bridges the gap between citizens and local government by providing an accessible, low-barrier channel for reporting infrastructure problems. Anyone with WhatsApp can report a broken streetlight, pothole, water leak, or waste pile-up in seconds.</p>
-                <p>Designed as a <strong>Digital Public Good (DPG)</strong>, Fixam is free, open-source, and built to serve communities — particularly in developing nations where traditional civic reporting channels are limited.</p>
-                <div class="stats-grid">
+                <h2 class="reveal">About Fixam</h2>
+                <p class="reveal">Fixam bridges the gap between citizens and local government by providing an accessible, low-barrier channel for reporting infrastructure problems. Anyone with WhatsApp can report a broken streetlight, pothole, water leak, or waste pile-up in seconds.</p>
+                <p class="reveal">Designed as a <strong>Digital Public Good (DPG)</strong>, Fixam is free, open-source, and built to serve communities — particularly in developing nations where traditional civic reporting channels are limited.</p>
+                <div class="stats-grid reveal-stagger">
                     <div class="stat-item">
                         <span class="stat-number">WhatsApp</span>
                         <span class="stat-label">Reporting Channel</span>
@@ -65,8 +115,8 @@
 
         <section id="features" class="section section-alt">
             <div class="container">
-                <h2>Features</h2>
-                <div class="features-grid">
+                <h2 class="reveal">Features</h2>
+                <div class="features-grid reveal-stagger">
                     <div class="feature-card">
                         <div class="feature-icon">📱</div>
                         <h3>WhatsApp Bot</h3>
@@ -103,30 +153,24 @@
 
         <section id="opensource" class="section">
             <div class="container">
-                <h2>Open Source</h2>
-                <p>Fixam is proudly open source under the <strong>ISC License</strong>. We believe civic infrastructure tools should be freely available to all communities worldwide.</p>
-                <p>The full codebase is available on GitHub, including:</p>
-                <ul class="os-list">
+                <h2 class="reveal">Open Source</h2>
+                <p class="reveal">Fixam is proudly open source under the <strong>ISC License</strong>. We believe civic infrastructure tools should be freely available to all communities worldwide.</p>
+                <p class="reveal">The full codebase is available on GitHub, including:</p>
+                <ul class="os-list reveal-stagger">
                     <li>WhatsApp bot integration with conversation state machine</li>
                     <li>AI service for intent classification and content moderation</li>
                     <li>PostgreSQL database with full schema and migrations</li>
                     <li>Admin dashboard for issue management and analytics</li>
                     <li>Public civic map and statistics dashboard</li>
                 </ul>
-                <p class="os-cta">We welcome contributions from developers, urban planners, and civic technologists.</p>
+                <div class="demo-links reveal-scale">
+                    <a href="https://github.com/kvskoker/FIXAM" class="btn-primary" target="_blank" rel="noopener">View on GitHub</a>
+                </div>
+                <p class="os-cta reveal">We welcome contributions from developers, urban planners, and civic technologists.</p>
             </div>
         </section>
 
-        <section id="demo" class="section section-alt">
-            <div class="container">
-                <h2>Try the Demo</h2>
-                <p>The Fixam demo is live and open for testing. Explore the civic map, test the WhatsApp bot, or browse the admin dashboard.</p>
-                <div class="demo-links">
-                    <a href="https://fixam.maxcit.com/" class="btn-primary" target="_blank" rel="noopener">Open Demo Application</a>
-                </div>
-                <p class="demo-note">The demo application is hosted at <strong>fixam.maxcit.com</strong>. In the future, it will be available at <strong>demo.fixam.sl</strong>.</p>
-            </div>
-        </section>
+       
     </main>
 
     <footer class="site-footer">
@@ -143,6 +187,7 @@
                     <a href="#about">About</a>
                     <a href="#features">Features</a>
                     <a href="/privacy">Privacy Policy</a>
+                    <a href="https://github.com/kvskoker/FIXAM" target="_blank" rel="noopener">GitHub</a>
                     <a href="https://fixam.maxcit.com/" target="_blank" rel="noopener">Live Demo</a>
                 </div>
                 <div class="footer-col">
@@ -153,9 +198,11 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Fixam. Built for Sierra Leone. Open to the world.</p>
+                <p>&copy; <span class="copyright-year">2026</span> Fixam. Built for Sierra Leone. Open to the world.</p>
             </div>
         </div>
     </footer>
+
+    <script src="js/main.js" defer></script>
 </body>
 </html>
