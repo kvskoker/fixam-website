@@ -14,6 +14,10 @@ app.get('/privacy', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'privacy.html'));
 });
 
+app.get('/terms', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'terms.html'));
+});
+
 app.listen(PORT, () => {
     console.log(`Fixam website running on http://localhost:${PORT}`);
 });

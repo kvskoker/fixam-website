@@ -38,7 +38,7 @@ if [[ -z "${DOMAIN:-}" ]]; then
 fi
 
 APP_PORT="${APP_PORT:-6000}"
-EMAIL="${EMAIL:-privacy@${DOMAIN}}"
+EMAIL="${EMAIL:-contact@${DOMAIN}}"
 NGINX_AVAILABLE="/etc/nginx/sites-available"
 NGINX_ENABLED="/etc/nginx/sites-enabled"
 WEBROOT="/var/www/html"
